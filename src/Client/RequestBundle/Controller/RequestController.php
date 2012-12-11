@@ -23,8 +23,8 @@ class RequestController extends Controller
 
 //dynamic setting depend on requirements
 
-   			$username="ppp@ppp.com";
-   			$password="625eab862ccd5b820dc83db2e1c6b20ab65d0ba1";
+   			$username="abc.com";
+   			$password="xyz";
    			$nonce = substr(md5(uniqid('nonce_', true)),0,16);
    			$time = time();
    			$digest= base64_encode(openssl_digest( $nonce.$time.$password, 'sha512'));
@@ -32,11 +32,7 @@ class RequestController extends Controller
 
    			$token="UsernameToken Username=\"".$username."\", PasswordDigest=\"".$password."\", Nonce=\"".$nonce."\", Created=\"".$time."\"";
    			$client->setDefaultHeaders(array('Accept'=>'application/json','x-wsse'=>$token));
-   			$responses=$client->get('http://chowzter.techjini.org/api/v1/cities', null, array (
-             'user_name' => 'ppp@ppp.com',  
-             'password' => 'pppppp',
-             'city'=>1,
-        	))->send()->getBody();
+   			$responses=$client->get('http://example.api.com/', null, array (  	))->send()->getBody();
 
 //-----------------------------------------	
     		$response = new Response();
