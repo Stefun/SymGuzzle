@@ -1,15 +1,14 @@
-
-Work in progress.............
+##Work in progress.............##
 
 
 This project is done in Symfony 2.1 framework and with the help of Guzzle framework. SymGuzzle can used as HTTP RESTful web service clients.
 
 
-STEP 1 .just download the folder in your www folder.
+#####STEP 1.just download the folder in your www folder.
 
-STEP 2. Modify contain in file src/Client/RequestBundle/Controller/RequestController.php as per your requirement as follows.
+#####STEP 2. Modify contain in file src/Client/RequestBundle/Controller/RequestController.php as per your requirement as follows.
 
-Note: Modify only content between the comments
+#####Note: Modify only content between the comments##
 
 //dynamic setting depend on requirements
 
@@ -27,9 +26,9 @@ Note: Modify only content between the comments
 //-----------------------------------------
 
 
-To modify this content Please refer documents of https://github.com/guzzle/guzzle and https://github.com/misd-service-development/guzzle-bundle
+To modify this content Please refer documents of [Guzzle](https://github.com/guzzle/guzzle) and [misd-guzzle-bundle](https://github.com/misd-service-development/guzzle-bundle)
 
 
-STEP 3 .Run in browser something like this http://localhost/SymGuzzle/web/app_dev.php/request.That's it!
+#####STEP 3. Run in browser something like this http://localhost/SymGuzzle/web/app_dev.php/request.That's it!
 
-You are Done!
+###You are Done!###
