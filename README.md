@@ -1,5 +1,4 @@
 
-
 Work in progress.............
 
 
@@ -28,7 +27,7 @@ Note: Modify only content between the comments
 //-----------------------------------------
 
 
-To modify this content Please refer ...
+To modify this content Please refer documents of https://github.com/guzzle/guzzle and https://github.com/misd-service-development/guzzle-bundle
 
 
 STEP 3 .Run in browser something like this http://localhost/SymGuzzle/web/app_dev.php/request.That's it!
